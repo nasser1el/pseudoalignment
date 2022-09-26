@@ -31,3 +31,7 @@ In implementing pseudoalignment, I faced several problems including figuring out
 <h1>Notable Statistics from Pseudoalignment Tests</h1>
 
 Using the provided data on my pseudoalignment implementation as well as a k-mer length of 3, I found that 1,050,806 of the 1,282,526 total reads (~82%) ended up matching to one of the 10,180 unique equivalence classes. It should be noted that using a high k-mer length allowed the program to run more quickly compared to a lower k-mer length due to the lower number of k-mers that the program had to iterate through. However, I also adjusted the code to accept a valid input from the user for a k-mer length (defined as k=1 to 100), so it can be used on several different lengths of k. Some final interesting statistics were that the greatest number of isoforms in one equivalence class was 54, the average number of isoforms in an equivalence class was 5.02, the highest number of reads mapping to one equivalence class (excluding N/A) was 50,420, and the average number of reads mapping to each equivalence class was 126.
+
+![Counts for Different Sizes of Equivalence Classes!](/results/Counts%20for%20Different%20Sizes%20of%20Equivalence%20Classes.png)
+![Distribution of Counts!](/results/Distribution%20of%20Counts.png)
+![Distribution of the Number of Isoforms in an Equivalence Class!](/results/Distribution%20of%20the%20Number%20of%20Isoforms%20in%20an%20Equivalence%20Class.png)
